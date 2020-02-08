@@ -10,21 +10,3 @@ Description:
     to get to safety. These clues will unlock different passageways or shortcuts that
     that help the player reach safety.
 
-Potential Users:
-
-    Android Users
-
-Potential Use Cases:
-
-    Start New Game
-
-    Load Game
-
-    Save Game
-
-    View Map
-
-    Help --> Instructions
-         --> About
-
-    Settings

@@ -1,5 +1,5 @@
 package com.squidstudios.cryptsandcryptogramsproject;
-import android.media.Image;
+import android.graphics.Bitmap;
 
 public class ScreenObject {
 
@@ -7,18 +7,25 @@ public class ScreenObject {
     int x;
     int y;
 
-    Image[] imgs; //array of images in the order they are displayed
+    Bitmap[] imgs; //array of Bitmaps in the order they are displayed
     private int currentImgNum;
-    Image currentImg;
+    Bitmap currentImg;
     String imgPath;
     String name;
+
+    public ScreenObject(){
+        imgs = null;
+        name = "NULLobject";
+        imgPath = null;
+        currentImgNum = 0;
+    }
 
     public ScreenObject(String n, String path) {
         name=n;
         imgPath=path;
         currentImgNum = 0;
 
-        //TODO: read in the images from the path
+        //TODO: read in the Bitmaps from the path
 
     }
 
@@ -26,6 +33,8 @@ public class ScreenObject {
         currentImgNum += 1;
         currentImg = imgs[currentImgNum];
     }
+
+
 
     public void draw(){
 

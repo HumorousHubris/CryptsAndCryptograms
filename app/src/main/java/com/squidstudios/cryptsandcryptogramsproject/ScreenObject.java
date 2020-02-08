@@ -1,3 +1,4 @@
+package com.squidstudios.cryptsandcryptogramsproject;
 import android.media.Image;
 
 public class ScreenObject {
@@ -24,5 +25,9 @@ public class ScreenObject {
     public void nextImage(){
         currentImgNum += 1;
         currentImg = imgs[currentImgNum];
+    }
+
+    public void draw(){
+
     }
 }

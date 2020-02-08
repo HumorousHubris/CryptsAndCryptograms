@@ -14,7 +14,7 @@ Potential Users:
 
     Android Users
 
-Use Cases:
+Potential Use Cases:
 
     Start New Game
 

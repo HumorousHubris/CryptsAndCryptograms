@@ -1,9 +1,10 @@
 package com.squidstudios.cryptsandcryptogramsproject;
 import android.graphics.Bitmap;
+import android.graphics.drawable.shapes.Shape;
 
 public class ScreenObject {
 
-    //screen coordinates
+    //screen coordinates - in percentages
     int x;
     int y;
 
@@ -12,6 +13,7 @@ public class ScreenObject {
     Bitmap currentImg;
     String imgPath;
     String name;
+    Shape mask;
 
     public ScreenObject(){
         imgs = null;
@@ -20,10 +22,12 @@ public class ScreenObject {
         currentImgNum = 0;
     }
 
-    public ScreenObject(String n, String path) {
+    public ScreenObject(String n, String path, int x, int y) {
         name=n;
         imgPath=path;
         currentImgNum = 0;
+        this.x =x;
+        this.y=y;
 
         //TODO: read in the Bitmaps from the path
 

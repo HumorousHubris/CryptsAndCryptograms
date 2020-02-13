@@ -12,25 +12,25 @@ import android.view.SurfaceHolder;
 
 public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
 
-
     Game g;
 
     public GameSurface(Context context){
         super(context);
-
         this.setFocusable(true);
-        g= new Game(); //just implementing new game for now
+        this.getHolder().addCallback(this);
+        g= new Game(context); //just implementing new game for now
     }
 
     public void draw(Canvas canvas){
         super.draw(canvas);
-        for(int i=0; i < g.currentRoom.objs.length; i++){
-            g.currentRoom.draw(canvas);
-        }
+        g.currentRoom.draw(canvas);
+        canvas.drawColor(456);
     }
 
     public void surfaceCreated(SurfaceHolder holder){
-
+        Canvas canvas = this.getHolder().lockCanvas();
+        this.draw(canvas);
+        this.getHolder().unlockCanvasAndPost(canvas);
     }
 
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height){}

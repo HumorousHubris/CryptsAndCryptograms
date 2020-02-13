@@ -1,39 +1,44 @@
 package com.squidstudios.cryptsandcryptogramsproject;
 
+import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.util.DisplayMetrics;
 
 public class Game {
     boolean[] doorsUnlocked;
-    Room[] rooms;
+    Room[] rooms = new Room[1]; //VALUE HERE SHOULD REFLECT NUMBER OF ROOMS IN THE GAME
     //Player player;
     //Room playerLocation; //maybe add to player class?
-
     Room currentRoom;
-
-    //define the rooms, items and ScreenObjects here:
-    /*
-        example:
-        rooms = new room[x]; <- where x is the total number of rooms in the game.
-        rooms[0] = new Room(...) //each room instantiated manually.
-    */
-
-    public Game(){ //call this constructor for new game
-        ScreenObject testChest = new ScreenObject();
-        ScreenObject testCurtain = new ScreenObject();
-        ScreenObject testWindow = new ScreenObject();
-
-        //first test will be with a room containing one object and a background.
-        ScreenObject testJade = new ScreenObject();
+    Context context;
+    Resources res;
 
 
 
+
+
+
+    public Game(Context c){ //call this constructor for new game
+        res = c.getResources();
+
+        //define all screenObjects for room 1 here
+        ScreenObject[] room1Objs = new ScreenObject[1]; //set this to number of objects in the room
+        Bitmap[] chestImgs = new Bitmap[2];
+        chestImgs[0] = BitmapFactory.decodeResource(res,R.drawable.chestclosed);
+        chestImgs[1] = BitmapFactory.decodeResource(res,R.drawable.chestopen);
+        room1Objs[0] = new ScreenObject("Chest",chestImgs,60,60);
+        Bitmap room1Background = BitmapFactory.decodeResource(res,R.drawable.dung);
+        Room firstRoom = new Room(room1Objs,room1Background,"This is the first room of the game.");
+        rooms[0] = firstRoom;
+        currentRoom = firstRoom;
+        //ScreenObject testCurtain = new ScreenObject();
+        //ScreenObject testWindow = new ScreenObject();
 
         //TODO player = new Player()
         //playerLocation = rooms[0]; //start the player in the first room
         //Todo any more game start protocols
-
-
     }
 
     public Game(String path){ //TODO call this constructor for continue and load game!

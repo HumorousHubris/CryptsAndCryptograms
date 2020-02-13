@@ -2,6 +2,7 @@ package com.squidstudios.cryptsandcryptogramsproject;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.shapes.Shape;
 import android.content.res.Resources;
@@ -43,6 +44,6 @@ public class ScreenObject {
     }
 
     public void draw(Canvas canvas){
-        canvas.drawBitmap(currentImg,x,y,null);
+        canvas.drawBitmap(currentImg,x,y,new Paint());
     }
 }

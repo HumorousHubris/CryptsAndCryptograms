@@ -83,3 +83,13 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+#our files
+gradlew
+gradlew.bat
+local.properties
+settings.gradle
+gradle/
+CryptsAndCryptogramsProject.iml
+build.gradle
+gradle.properties

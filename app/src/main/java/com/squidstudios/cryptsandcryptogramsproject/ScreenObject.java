@@ -1,36 +1,40 @@
 package com.squidstudios.cryptsandcryptogramsproject;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.shapes.Shape;
+import android.content.res.Resources;
 
 public class ScreenObject {
 
-    //screen coordinates - in percentages
+    //screen coordinates - in percentages?
     int x;
     int y;
 
     Bitmap[] imgs; //array of Bitmaps in the order they are displayed
     private int currentImgNum;
     Bitmap currentImg;
-    String imgPath;
     String name;
-    Shape mask;
+    int width;
+    int height;
 
     public ScreenObject(){
         imgs = null;
+        currentImg = null;
         name = "NULLobject";
-        imgPath = null;
         currentImgNum = 0;
     }
 
-    public ScreenObject(String n, String path, int x, int y) {
+    public ScreenObject(String n, Bitmap[] b, int x, int y) {
         name=n;
-        imgPath=path;
+        imgs = b;
+        currentImg = b[0];
         currentImgNum = 0;
         this.x =x;
-        this.y=y;
-
-        //TODO: read in the Bitmaps from the path
-
+        this.y =y;
+        width = currentImg.getWidth();
+        height = currentImg.getHeight();
     }
 
     public void nextImage(){
@@ -38,9 +42,7 @@ public class ScreenObject {
         currentImg = imgs[currentImgNum];
     }
 
-
-
-    public void draw(){
-
+    public void draw(Canvas canvas){
+        canvas.drawBitmap(currentImg,x,y,null);
     }
 }

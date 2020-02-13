@@ -7,8 +7,8 @@ public class Game {
     boolean[] doorsUnlocked;
     Room[] rooms;
     //Player player;
-    Room playerLocation; //maybe add to player class?
-    public Bitmap[] graphicsBuffer;
+    //Room playerLocation; //maybe add to player class?
+
     Room currentRoom;
 
     //define the rooms, items and ScreenObjects here:
@@ -19,6 +19,15 @@ public class Game {
     */
 
     public Game(){ //call this constructor for new game
+        ScreenObject testChest = new ScreenObject();
+        ScreenObject testCurtain = new ScreenObject();
+        ScreenObject testWindow = new ScreenObject();
+
+        //first test will be with a room containing one object and a background.
+        ScreenObject testJade = new ScreenObject();
+
+
+
 
         //TODO player = new Player()
         //playerLocation = rooms[0]; //start the player in the first room

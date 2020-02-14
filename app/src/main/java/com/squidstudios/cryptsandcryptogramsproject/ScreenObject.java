@@ -19,6 +19,7 @@ public class ScreenObject {
     String name;
     int width;
     int height;
+    boolean touched=false;
 
     public ScreenObject(){
         imgs = null;
@@ -39,11 +40,27 @@ public class ScreenObject {
     }
 
     public void nextImage(){
-        currentImgNum += 1;
+        if(currentImgNum == imgs.length-1){
+            currentImgNum = 0;}
+        else{
+            currentImgNum++;}
         currentImg = imgs[currentImgNum];
     }
 
     public void draw(Canvas canvas){
         canvas.drawBitmap(currentImg,x,y,new Paint());
+    }
+
+    public boolean isTouched(float xt, float yt){
+        if((xt > x && xt < x+currentImg.getWidth()) && (yt > y && yt < y+currentImg.getHeight())){return true;}
+        return false;
+    }
+
+    public void touched(float xt, float yt){ //default method, changes image to next one unless already touched. Overrride for other types of screenobject
+        if(isTouched(xt,yt) && !touched){//if never touched before and touched now (object only changes when touched once
+            touched = true;
+            this.nextImage();
+            //Game.messageLog.print(alreadyTouchedMessage)
+        }
     }
 }

@@ -31,5 +31,9 @@ public class Room {
         this.background = background;
         this.loadMessage = loadMessage;
     }
+
+    public void touched(float x, float y){
+        for(int i=0; i < objs.length; i++){objs[i].touched(x,y);}
+    }
     
 }

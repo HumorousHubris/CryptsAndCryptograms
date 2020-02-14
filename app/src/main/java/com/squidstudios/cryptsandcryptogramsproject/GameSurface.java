@@ -18,13 +18,13 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
         super(context);
         this.setFocusable(true);
         this.getHolder().addCallback(this);
+        this.getHolder().setFixedSize(1920,1080); //forcing to be 1080p for now.
         g= new Game(context); //just implementing new game for now
     }
 
     public void draw(Canvas canvas){
         super.draw(canvas);
         g.currentRoom.draw(canvas);
-        canvas.drawColor(456);
     }
 
     public void surfaceCreated(SurfaceHolder holder){
@@ -35,5 +35,16 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
 
     public void surfaceChanged(SurfaceHolder holder, int format, int width, int height){}
     public void surfaceDestroyed(SurfaceHolder holder) {}
+
+    @Override
+    public boolean onTouchEvent(MotionEvent e){
+        if(e.getAction() == MotionEvent.ACTION_DOWN){ //when user presses down
+            g.currentRoom.touched(e.getX(),e.getY());
+            Canvas canvas = this.getHolder().lockCanvas();
+            this.draw(canvas);
+            this.getHolder().unlockCanvasAndPost(canvas);
+        }
+        return true;
+    }
 
 }

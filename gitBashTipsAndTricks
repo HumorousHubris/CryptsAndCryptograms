@@ -3,6 +3,11 @@ Getting Started:
 cd /your_project_directory [This is change directory]
 git checkout name_of_branch [This switches you to the branch you'd like to work on, this should change your Android Studio branch as well]
 
+Ensuring Your Branch is Current: (Try doing this before pushing your changes out)
+-------------------------------------------------------------------------------------------------------------------------------------------
+git fetch [fetches all changes in your current branch]
+git pull [adds all the fetched changes to your current branch]
+
 Adding Changes to Branch:
 -------------------------------------------------------------------------------------------------------------------------------------------
 git commit -m 'what you did (your name)' [Be detailed and concise, and give yourself credit so we know]

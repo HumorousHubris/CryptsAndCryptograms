@@ -1,0 +1,21 @@
+Getting Started:
+-------------------------------------------------------------------------------------------------------------------------------------------
+cd /your_project_directory [This is change directory]
+git checkout name_of_branch [This switches you to the branch you'd like to work on, this should change your Android Studio branch as well]
+
+Ensuring Your Branch is Current: (Try doing this before pushing your changes out)
+-------------------------------------------------------------------------------------------------------------------------------------------
+git fetch [fetches all changes in your current branch]
+git pull [adds all the fetched changes to your current branch]
+
+Adding Changes to Branch:
+-------------------------------------------------------------------------------------------------------------------------------------------
+git commit -m 'what you did (your name)' [Be detailed and concise, and give yourself credit so we know]
+git add . [. is a wild card to add all committed changes but you can hand pick individual commits if you'd like]
+git push [This will add all your commits and local changes to your remote branch]
+
+Other Things to Know:
+-------------------------------------------------------------------------------------------------------------------------------------------
+git diff [shows you all changes from last committed changes and what you currently have]
+git status [shows you untracked, staged files, and unstaged files, basically shows you everything and its current state]
+-f [This is a force flag, be careful this is FORCEFUL]

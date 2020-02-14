@@ -20,6 +20,10 @@ public class Game {
 
 
 
+
+
+
+
     public Game(Context c){ //call this constructor for new game
         res = c.getResources();
 

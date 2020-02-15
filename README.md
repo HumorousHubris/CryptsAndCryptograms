@@ -9,6 +9,9 @@ Description:
     are in for clues, given in the form of puzzles, to find where they are and how
     to get to safety. These clues will unlock different passageways or shortcuts that
     that help the player reach safety.
+    
+    IMPORTANT NOTE:
+    As of 2/14/2020, the app MUST be held in a HORIZONTAL format via phone. 
 
 Potential Users:
 

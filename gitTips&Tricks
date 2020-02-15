@@ -1,0 +1,23 @@
+# gitTips&Tricks
+
+Getting Started:
+----------------------------------------------------------------------------------------------------------------------------------------
+cd ~\AndroidStudioProjects\your_project_directory
+git checkout name_of_branch
+
+Maintaining Branches:
+----------------------------------------------------------------------------------------------------------------------------------------
+git fetch
+git pull
+
+Adding Changes to Repo:
+----------------------------------------------------------------------------------------------------------------------------------------
+git commit -m 'add what you did (name)'
+git add specific_file_changes
+git push
+
+Helpful Commands:
+----------------------------------------------------------------------------------------------------------------------------------------
+git diff [shows changes from local and remote branches]
+git status [checks what state all files are in]
+-f [force flag]

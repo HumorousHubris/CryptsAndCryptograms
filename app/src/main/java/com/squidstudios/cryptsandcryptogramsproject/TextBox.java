@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.squidstudios.cryptsandcryptogramsproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -96,4 +96,4 @@ gradle.properties
 README.md
 .gitignore
 fixgitignore.sh
-.idea
+.idea/

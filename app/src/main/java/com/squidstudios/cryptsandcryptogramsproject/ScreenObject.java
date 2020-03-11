@@ -63,4 +63,5 @@ public class ScreenObject {
             //Game.messageLog.print(alreadyTouchedMessage)
         }
     }
+    //TESTTTTTTTTTTT
 }

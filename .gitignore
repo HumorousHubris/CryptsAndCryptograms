@@ -93,3 +93,7 @@ gradle/
 CryptsAndCryptogramsProject.iml
 build.gradle
 gradle.properties
+README.md
+.gitignore
+fixgitignore.sh
+.idea/workspace.xml

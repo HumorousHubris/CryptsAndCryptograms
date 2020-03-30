@@ -39,6 +39,15 @@ public class ScreenObject {
         height = currentImg.getHeight();
     }
 
+    public ScreenObject(String n, Bitmap b, int x,int y){ //for static screenobjects that never change their image
+        this.x=x;
+        this.y=y;
+        this.name=n;
+        imgs = new Bitmap[1];
+        imgs[0] = b;
+        currentImg = b;
+    }
+
     public void nextImage(){
         if(currentImgNum == imgs.length-1){
             currentImgNum = 0;}
@@ -48,6 +57,7 @@ public class ScreenObject {
     }
 
     public void draw(Canvas canvas){
+        if(currentImg == null){return;} //prevent trying to draw null
         canvas.drawBitmap(currentImg,x,y,new Paint());
     }
 

@@ -13,7 +13,7 @@ git pull
 Adding Changes to Repo:
 ----------------------------------------------------------------------------------------------------------------------------------------
 git commit -m 'add what you did (name)'
-git add specific_file_changes
+git add specific_file_changes OR git add *
 git push
 
 Helpful Commands:

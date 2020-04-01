@@ -19,6 +19,18 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.Settings" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.Help" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.LoadScreen" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomNine" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomEight" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomSeven" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomSix" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomFive" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomFour" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomThree" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomTwo" />
+        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomOne" />
         <activity android:name="com.squidstudios.cryptsandcryptogramsproject.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,12 +40,10 @@
         </activity>
         <activity
             android:name="com.squidstudios.cryptsandcryptogramsproject.TextBox"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name="com.squidstudios.cryptsandcryptogramsproject.GameActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

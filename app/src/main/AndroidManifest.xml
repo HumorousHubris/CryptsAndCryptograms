@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Settings"></activity>
+        <activity android:name=".Help" />
+        <activity android:name=".LoadScreen" />
+        <activity android:name=".RoomNine" />
+        <activity android:name=".RoomEight" />
+        <activity android:name=".RoomSeven" />
+        <activity android:name=".RoomSix" />
+        <activity android:name=".RoomFive" />
+        <activity android:name=".RoomFour" />
+        <activity android:name=".RoomThree" />
+        <activity android:name=".RoomTwo" />
+        <activity android:name=".RoomOne" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +30,10 @@
         </activity>
         <activity
             android:name=".TextBox"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".GameActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

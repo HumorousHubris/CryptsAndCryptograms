@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CryptsAndCryptogramsProject.iml" filepath="$PROJECT_DIR$/CryptsAndCryptogramsProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CryptsAndCryptogramsProject.iml" filepath="$PROJECT_DIR$/CryptsAndCryptogramsProject.iml" group="CryptsAndCryptogramsProject" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CryptsAndCryptogramsProject/app" />
     </modules>
   </component>
 </project>

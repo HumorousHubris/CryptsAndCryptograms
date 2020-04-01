@@ -50,6 +50,8 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
         //this.setScaleX(0.5F);
         //this.setScaleY(0.5F);
         //this.setRotation(180F);
+        Canvas canvas = this.getHolder().lockCanvas();
+        canvas.setDensity(420);
     }
 
     /*

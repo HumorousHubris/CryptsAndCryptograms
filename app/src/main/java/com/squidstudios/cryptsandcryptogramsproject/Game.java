@@ -18,23 +18,27 @@ public class Game {
 
     public Game(Context c){ //call this constructor for new game
         res = c.getResources();
-
         /*
         Bitmaps are defined in this constructor now, but later they can be loaded in the loadRoom()
         method which constructs the room
          */
+        BitmapFactory.Options o = new BitmapFactory.Options();
+        o.inDensity = 420; //these three things are currently hardcoded, for Pixel API 29. In future set these dynamically.
+        o.outHeight = 1920;
+        o.outWidth = 1080;
 
-        Bitmap itemFrameBmp = BitmapFactory.decodeResource(res,R.drawable.item_frame);
+        Bitmap itemFrameBmp = BitmapFactory.decodeResource(res,R.drawable.item_frame,o);
         ScreenObject currentItemFrame = new ScreenObject("active item frame", itemFrameBmp,0,1080);
         ScreenObject currentItem = new ScreenObject();
 
         //define all screenObjects for room 1 here
         ScreenObject[] room1Objs = new ScreenObject[1]; //set this to number of objects in the room
         Bitmap[] chestImgs = new Bitmap[2];
-        chestImgs[0] = BitmapFactory.decodeResource(res,R.drawable.chestclosed);
-        chestImgs[1] = BitmapFactory.decodeResource(res,R.drawable.chestopen);
+
+        chestImgs[0] = BitmapFactory.decodeResource(res,R.drawable.chestclosed,o);
+        chestImgs[1] = BitmapFactory.decodeResource(res,R.drawable.chestopen,o);
         room1Objs[0] = new ScreenObject("Chest",chestImgs,700,700);
-        Bitmap room1Background = BitmapFactory.decodeResource(res,R.drawable.dung);
+        Bitmap room1Background = BitmapFactory.decodeResource(res,R.drawable.dung,o);
         Room firstRoom = new Room(room1Objs,room1Background,"This is the first room of the game.");
         rooms[0] = firstRoom;
         currentRoom = firstRoom;

@@ -28,8 +28,9 @@ public class GameActivity extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         //instantiate the game view
-        this.setContentView(new GameSurface(this));
-
+        this.setContentView(R.layout.game_activity);
+        //this.setContentView(new GameSurface(this));
+        //final GameSurface g = (GameSurface) findViewById(R.id.gameSurface);
         //gLView = new MyGLSurfaceView(this);
         //setContentView(gLView);
         //Bitmap test = BitmapFactory.decodeResource(getResources(),R.drawable.jade);

@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         final Button btnNewGame = (Button) findViewById(R.id.btnNewGame);
         btnNewGame.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent activityChangeIntent = new Intent(MainActivity.this, GameActivity.class);
                 startActivity(activityChangeIntent);
 
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
 
         final Button btnNewGame = findViewById(R.id.btnNewGame);
 

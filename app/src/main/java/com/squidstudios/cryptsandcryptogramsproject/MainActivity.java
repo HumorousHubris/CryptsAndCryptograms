@@ -3,6 +3,9 @@ package com.squidstudios.cryptsandcryptogramsproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 
@@ -23,13 +26,10 @@ public class MainActivity extends AppCompatActivity {
         final Button btnHelp = (Button) findViewById(R.id.btnHelp);
         final Button btnSettings = (Button) findViewById(R.id.btnSettings);
 
-
-
         btnNewGame.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent activityChangeIntent = new Intent(MainActivity.this, TextBox.class);
-                startActivity(activityChangeIntent);
+              //ADD SOMETHING
             }
         });
 
@@ -41,11 +41,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-        //final Button btnNewGame = findViewById(R.id.btnNewGame);
-
         btnHelp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,5 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(activityChangeIntent);
             }
         });
+
     }
+
 }

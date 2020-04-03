@@ -7,5 +7,5 @@
     android:background="@drawable/dung"
     android:orientation="horizontal"
     tools:context=".RoomFive">
-
+    <include layout="@layout/message_box_position"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

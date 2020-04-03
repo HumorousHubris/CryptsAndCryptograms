@@ -39,9 +39,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.squidstudios.cryptsandcryptogramsproject.TextBox"
-            android:label="@string/app_name" />
-        <activity
             android:name="com.squidstudios.cryptsandcryptogramsproject.GameActivity"
             android:label="@string/app_name" />
     </application>

@@ -8,4 +8,5 @@
     android:orientation="horizontal"
     tools:context=".RoomTwo">
 
+    <include layout="@layout/message_box_position"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

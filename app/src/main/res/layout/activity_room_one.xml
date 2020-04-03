@@ -8,4 +8,16 @@
     android:orientation="horizontal"
     tools:context=".RoomOne">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/hamtaro"
+        android:layout_width="83dp"
+        android:layout_height="89dp"
+        android:src="@drawable/hamtaro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></pl.droidsonroids.gif.GifImageView>
+
+    <include layout="@layout/message_box_position"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

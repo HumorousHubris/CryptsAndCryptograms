@@ -29,122 +29,123 @@
 19-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:9:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:10:9-35
-21        android:theme="@style/AppTheme" >
-21-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:11:9-40
-22        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.Settings" />
-22-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:12:9-55
-22-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:12:19-43
-23        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.Help" />
-23-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:13:9-42
-23-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:13:19-39
-24        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.LoadScreen" />
-24-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:14:9-48
-24-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:14:19-45
-25        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomNine" />
-25-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:15:9-46
-25-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:15:19-43
-26        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomEight" />
-26-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:16:9-47
-26-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:16:19-44
-27        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomSeven" />
-27-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:17:9-47
-27-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:17:19-44
-28        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomSix" />
-28-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:18:9-45
-28-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:18:19-42
-29        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomFive" />
-29-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:19:9-46
-29-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:19:19-43
-30        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomFour" />
-30-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:20:9-46
-30-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:20:19-43
-31        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomThree" />
-31-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:21:9-47
-31-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:21:19-44
-32        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomTwo" />
-32-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:22:9-45
-32-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:22:19-42
-33        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomOne" />
-33-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:23:9-45
-33-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:23:19-42
-34        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.MainActivity" >
-34-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:24:9-30:20
-34-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:24:19-47
-35            <intent-filter>
-35-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:25:13-29:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
-36-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:28:17-77
-38-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:28:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:31:9-33:48
-42            android:name="com.squidstudios.cryptsandcryptogramsproject.GameActivity"
-42-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:32:13-41
-43            android:label="@string/app_name" />
-43-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:33:13-45
-44        <activity
-44-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:28:9-37:20
-45            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
-45-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:29:13-96
-46            android:exported="true"
-46-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:30:13-36
-47            android:multiprocess="true"
-47-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:31:13-40
-48            android:taskAffinity=""
-48-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:32:13-36
-49            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
-49-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:33:13-78
-50            <intent-filter>
-50-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
-51-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
-52            </intent-filter>
-53        </activity>
-54        <activity
-54-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:27:9-33:20
-55            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-55-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:28:13-99
-56            android:theme="@android:style/Theme" >
-56-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:29:13-49
-57            <intent-filter>
-57-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
-58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
-58-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
-59            </intent-filter>
-60        </activity>
-61        <activity
-61-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:34:9-40:20
-62            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-62-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:35:13-95
-63            android:theme="@android:style/Theme" >
-63-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:36:13-49
-64            <intent-filter>
-64-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
-65                <action android:name="android.intent.action.MAIN" />
-65-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
-65-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:41:9-47:20
-69            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-69-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:42:13-103
-70            android:theme="@android:style/Theme.Dialog" >
-70-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:43:13-56
-71            <intent-filter>
-71-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
-72                <action android:name="android.intent.action.MAIN" />
-72-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
-72-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
-73            </intent-filter>
-74        </activity>
-75    </application>
-76
-77</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.Settings" />
+23-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:12:9-55
+23-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:12:19-43
+24        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.Help" />
+24-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:13:9-42
+24-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:13:19-39
+25        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.LoadScreen" />
+25-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:14:9-48
+25-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:14:19-45
+26        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomNine" />
+26-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:15:9-46
+26-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:15:19-43
+27        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomEight" />
+27-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:16:9-47
+27-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:16:19-44
+28        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomSeven" />
+28-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:17:9-47
+28-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:17:19-44
+29        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomSix" />
+29-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:18:9-45
+29-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:18:19-42
+30        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomFive" />
+30-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:19:9-46
+30-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:19:19-43
+31        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomFour" />
+31-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:20:9-46
+31-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:20:19-43
+32        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomThree" />
+32-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:21:9-47
+32-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:21:19-44
+33        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomTwo" />
+33-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:22:9-45
+33-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:22:19-42
+34        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.RoomOne" />
+34-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:23:9-45
+34-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:23:19-42
+35        <activity android:name="com.squidstudios.cryptsandcryptogramsproject.MainActivity" >
+35-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:24:9-30:20
+35-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:24:19-47
+36            <intent-filter>
+36-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:25:13-29:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
+37-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:28:17-77
+39-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:28:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:31:9-33:48
+43            android:name="com.squidstudios.cryptsandcryptogramsproject.GameActivity"
+43-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:32:13-41
+44            android:label="@string/app_name" />
+44-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:33:13-45
+45        <activity
+45-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:28:9-37:20
+46            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+46-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:29:13-96
+47            android:exported="true"
+47-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:30:13-36
+48            android:multiprocess="true"
+48-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:31:13-40
+49            android:taskAffinity=""
+49-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:32:13-36
+50            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+50-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:33:13-78
+51            <intent-filter>
+51-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
+52-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:27:9-33:20
+56            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+56-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:28:13-99
+57            android:theme="@android:style/Theme" >
+57-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:29:13-49
+58            <intent-filter>
+58-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
+59-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:34:9-40:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+63-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:35:13-95
+64            android:theme="@android:style/Theme" >
+64-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:36:13-49
+65            <intent-filter>
+65-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
+66-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:41:9-47:20
+70            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+70-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:42:13-103
+71            android:theme="@android:style/Theme.Dialog" >
+71-->[androidx.test:core:1.2.0] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\5607dabd32e7ebd114b7d76f8f4bcf87\jetified-core-1.2.0\AndroidManifest.xml:43:13-56
+72            <intent-filter>
+72-->[androidx.fragment:fragment-testing:1.2.4] C:\Users\T_Nag\.gradle\caches\transforms-2\files-2.1\2bf02dfcdb9a5510c35e016cc64f6e83\jetified-fragment-testing-1.2.4\AndroidManifest.xml:34:13-36:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:17-69
+73-->C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml:26:25-66
+74            </intent-filter>
+75        </activity>
+76    </application>
+77
+78</manifest>

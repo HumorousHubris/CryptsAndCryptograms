@@ -8,6 +8,9 @@
     android:orientation="horizontal"
     tools:context=".RoomOne">
 
+
+
+
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/hamtaro"
         android:layout_width="83dp"

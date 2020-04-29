@@ -19,18 +19,43 @@ public class RoomOne extends MainActivity {
         final MessageBox messageBox = (MessageBox) getFragmentManager().findFragmentById(R.id.message_fragment);
         //USAGE: Display a message using messageBox.display(string);
 
-        //Example of prompting a display message through a click event
-        final ImageView hamtaro = (ImageView) findViewById(R.id.hamtaro);
-        hamtaro.setOnClickListener(new View.OnClickListener() {
+
+        final ImageView kermit = (ImageView) findViewById(R.id.kermit);
+        kermit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String Hamtaro_Description = "Hamtaro, known in Japan as Trotting Hamtaro, is a Japanese children's manga "
-                        + "and storybook series created and illustrated by Ritsuko Kawai. The manga is "
-                        + "serialized in Shogakukan's all-girl's magazine Ciao in 1997, focusing on a "
-                        + "hamster named Hamtaro who has a variety of adventures with other hamsters, "
-                        + "known as \"Ham-Hams\" (\"Hamuchans\" in the Japanese version). ";
-                messageBox.display(Hamtaro_Description);
+                String h_question = "question for this object goes here.";
+                messageBox.display(h_question);
+                //TODO show the question choices here!
             }
         });
+
+        final ImageView wazosk = (ImageView) findViewById(R.id.wazosk);
+        wazosk.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                String h_question = "question for this object goes here.";
+                messageBox.display(h_question);
+                //TODO show the question choices here!
+            }
+        });
+
+        final ImageView kirb = (ImageView) findViewById(R.id.kirb);
+        kirb.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                String h_question = "question for this object goes here.";
+                messageBox.display(h_question);
+                //TODO show the question choices here!
+            }
+        });
+
+        final ImageView yosh = (ImageView) findViewById(R.id.yosh);
+        yosh.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                String h_question = "question for this object goes here.";
+                messageBox.display(h_question);
+                //TODO show the question choices here!
+            }
+        });
+
     }
 
 

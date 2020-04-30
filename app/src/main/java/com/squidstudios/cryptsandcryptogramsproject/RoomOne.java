@@ -21,7 +21,7 @@ public class RoomOne extends MainActivity {
         final ImageView kermit = (ImageView) findViewById(R.id.kermit);
         kermit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String h_question = "Who let the dogs out?";
+                String h_question = "Who let the dogs out?\n(A) Bow Wow \t(B) The Doggies \n(C) Hannah Montana \t\t\t(D) Obama";
                 messageBox.display(h_question);
                 //TODO show the question choices here!
                 //answer options:
@@ -35,7 +35,7 @@ public class RoomOne extends MainActivity {
         final ImageView wazosk = (ImageView) findViewById(R.id.wazosk);
         wazosk.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String h_question = "Who blessed the rains down in Africa?";
+                String h_question = "Who blessed the rains down in Africa?\n(A) Jesus \t(B) a-ha \n(C) Toto \t\t\t(D) Wham!";
                 messageBox.display(h_question);
                 //TODO show the question choices here!
                 //answer options:
@@ -49,7 +49,7 @@ public class RoomOne extends MainActivity {
         final ImageView kirb = (ImageView) findViewById(R.id.kirb);
         kirb.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String h_question = "How did Jeffrey Epstein die?";
+                String h_question = "How did Jeffrey Epstein die?\n(A) Murder \t(B) Suicide \n(C) Not dead \t\t\t(D) Epstein did not kill himself";
                 messageBox.display(h_question);
                 //TODO show the question choices here!
                 //answer choices:
@@ -64,7 +64,7 @@ public class RoomOne extends MainActivity {
         final ImageView yosh = (ImageView) findViewById(R.id.yosh);
         yosh.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String h_question = "What college do you go to?";
+                String h_question = "What college do you go to?\n(A) Texas Tech University \t(B) Texas A&M University \n(C) Zoom University \t\t\t(D) Oklahoma University";
                 messageBox.display(h_question);
                 //TODO show the question choices here!
                 //answer choices:

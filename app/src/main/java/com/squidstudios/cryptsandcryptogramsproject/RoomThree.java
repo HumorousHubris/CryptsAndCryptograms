@@ -23,6 +23,7 @@ public class RoomThree extends AppCompatActivity {
         final MessageBox messageBox = (MessageBox) getFragmentManager().findFragmentById(R.id.message_fragment);
         //USAGE: Display a message using messageBox.display(string);
 
+        /*
         btnLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,5 +47,7 @@ public class RoomThree extends AppCompatActivity {
                 startActivity(activityChangeIntent);
             }
         });
+        
+         */
     }
 }

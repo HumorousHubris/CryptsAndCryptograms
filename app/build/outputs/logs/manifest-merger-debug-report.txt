@@ -217,8 +217,4 @@ INJECTED from C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src
 	android:minSdkVersion
 		INJECTED from C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml
-<<<<<<< HEAD
 		INJECTED from C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml
-=======
-		INJECTED from C:\Users\T_Nag\AndroidStudioProjects\CryptsAndCryptograms3\app\src\main\AndroidManifest.xml
->>>>>>> cbad0ccd41be934ad7c2a0668aa66bd82ce99553

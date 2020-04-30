@@ -12,11 +12,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-<<<<<<< HEAD
         android:layout_marginBottom="300dp">
-=======
-        android:layout_marginTop="300dp">
->>>>>>> cbad0ccd41be934ad7c2a0668aa66bd82ce99553
 
         <Button
             android:id="@+id/Choice1"
@@ -60,8 +56,4 @@
             android:textStyle="bold"
             />
     </GridLayout>
-<<<<<<< HEAD
-=======
-
->>>>>>> cbad0ccd41be934ad7c2a0668aa66bd82ce99553
 </androidx.constraintlayout.widget.ConstraintLayout>

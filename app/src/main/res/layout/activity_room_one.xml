@@ -9,15 +9,56 @@
     tools:context=".RoomOne">
 
     <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/hamtaro"
+        android:id="@+id/kermit"
         android:layout_width="83dp"
         android:layout_height="89dp"
-        android:src="@drawable/hamtaro"
+        android:src="@drawable/kermit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></pl.droidsonroids.gif.GifImageView>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"></pl.droidsonroids.gif.GifImageView>
 
-    <include layout="@layout/message_box_position"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/wazosk"
+        android:layout_width="83dp"
+        android:layout_height="89dp"
+        android:src="@drawable/wazosk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"></pl.droidsonroids.gif.GifImageView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/kirb"
+        android:layout_width="83dp"
+        android:layout_height="89dp"
+        android:src="@drawable/kirb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673"></pl.droidsonroids.gif.GifImageView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/yosh"
+        android:layout_width="83dp"
+        android:layout_height="89dp"
+        android:src="@drawable/yosh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673"></pl.droidsonroids.gif.GifImageView>
+
+    <include
+        layout="@layout/message_box_position"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="82dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

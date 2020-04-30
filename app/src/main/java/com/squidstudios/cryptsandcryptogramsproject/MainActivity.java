@@ -3,6 +3,7 @@ package com.squidstudios.cryptsandcryptogramsproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -15,6 +16,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

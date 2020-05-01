@@ -1,29 +1,37 @@
 package com.squidstudios.cryptsandcryptogramsproject;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.content.Intent;
+import android.widget.TextView;
 
 public class RoomOne extends MainActivity {
-
+    int score = 0;
     @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room_one);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+        //USAGE: Display a message using messageBox.display(string);
         final MessageBox messageBox = (MessageBox) getFragmentManager().findFragmentById(R.id.message_fragment);
+
+        // ScoreCounter and Display
+        final TextView scoreCounter =  findViewById(R.id.Score);
+        SharedPreferences myScore = this.getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+        score = myScore.getInt("playerScore", 0);
+        scoreCounter.setText("Score: " + score);
+
+        // Answer Choices Buttons
         final Button btn1 = (Button) findViewById(R.id.Choice1);
         final Button btn2 = (Button) findViewById(R.id.Choice2);
         final Button btn3 = (Button) findViewById(R.id.Choice3);
         final Button btn4 = (Button) findViewById(R.id.Choice4);
-        //final AnswerBox answerButtons =
-        //USAGE: Display a message using messageBox.display(string);
-
 
         final ImageView kermit = (ImageView) findViewById(R.id.kermit);
         kermit.setOnClickListener(new View.OnClickListener() {
@@ -36,6 +44,54 @@ public class RoomOne extends MainActivity {
                 //The Doggies <-- the right answer (this is the band who sang the song)
                 //Hannah Montana
                 //Obama
+
+                btn1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score += 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
             }
         });
 
@@ -50,6 +106,54 @@ public class RoomOne extends MainActivity {
                 //a-ha
                 //Toto <-- the right answer
                 //Wham!
+
+                btn1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score += 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
             }
         });
 
@@ -65,6 +169,53 @@ public class RoomOne extends MainActivity {
                 //he's not dead
                 //Jeffrey Epstein Did Not Kill Himself <-- the correct answer
 
+                btn1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score += 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
             }
         });
 
@@ -79,40 +230,55 @@ public class RoomOne extends MainActivity {
                 //Texas A&M University
                 //Zoom University <-- correct answer
                 //Oklahoma University
-            }
-        });
 
-        /*
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent activityChangeIntent = new Intent(RoomOne.this,);
-                startActivity(activityChangeIntent);
-            }
-        });
+                btn1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
 
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent activityChangeIntent = new Intent(android.intent.action.VIEW);
-                startActivity(activityChangeIntent);
-            }
-        });
+                btn2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
 
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent activityChangeIntent = new Intent(android.intent.action.VIEW);
-                startActivity(activityChangeIntent);
+                btn3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score += 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
+
+                btn4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        score -= 10;
+                        SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = myScore.edit();
+                        editor.putInt("score", score);
+                        editor.commit();
+                        scoreCounter.setText("Score: " + score);
+                    }
+                });
             }
         });
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent activityChangeIntent = new Intent(android.intent.action.VIEW);
-                startActivity(activityChangeIntent);
-            }
-        });
-        */
     }
 }

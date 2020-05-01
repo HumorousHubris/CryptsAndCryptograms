@@ -2,6 +2,7 @@ package com.squidstudios.cryptsandcryptogramsproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 
 public class RoomTwo extends AppCompatActivity {
 int score = 0;
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,7 @@ int score = 0;
 
         final TextView scoreCounter =  findViewById(R.id.Score);
         final Button btnpoints = findViewById(R.id.btnPoints);
+        final Button btnReduce = findViewById(R.id.btnReduce);
 
 
         SharedPreferences myScore = this.getSharedPreferences("MyScore", Context.MODE_PRIVATE);
@@ -34,6 +37,18 @@ int score = 0;
             @Override
             public void onClick(View view) {
                 score += 10;
+                SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = myScore.edit();
+                editor.putInt("score", score);
+                editor.commit();
+                scoreCounter.setText("Score: " + score);
+            }
+        });
+
+        btnReduce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                score -= 10;
                 SharedPreferences myScore = getSharedPreferences("MyScore", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = myScore.edit();
                 editor.putInt("score", score);

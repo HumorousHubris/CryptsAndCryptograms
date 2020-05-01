@@ -77,6 +77,6 @@ public class MessageBox extends Fragment {
                 //***********************************************************************
             }//end run()
         });//end post()
-    }//end updateMessage()
-}//end class MessageBox
+    }//end display()
+}//end fragment MessageBox
 

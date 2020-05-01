@@ -35,8 +35,6 @@ public class Game {
         ScreenObject[] room1Objs = new ScreenObject[1]; //set this to number of objects in the room
         Bitmap[] chestImgs = new Bitmap[2];
 
-        chestImgs[0] = BitmapFactory.decodeResource(res,R.drawable.chestclosed,o);
-        chestImgs[1] = BitmapFactory.decodeResource(res,R.drawable.chestopen,o);
         room1Objs[0] = new ScreenObject("Chest",chestImgs,700,700);
         Bitmap room1Background = BitmapFactory.decodeResource(res,R.drawable.dung,o);
         Room firstRoom = new Room(room1Objs,room1Background,"This is the first room of the game.");

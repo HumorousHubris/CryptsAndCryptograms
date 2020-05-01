@@ -4,8 +4,105 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dung"
     android:orientation="horizontal"
     tools:context=".RoomFour">
-    <include layout="@layout/message_box_position"/>
+
+    <ImageView
+        android:id="@+id/caesar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/caesar" />
+
+    <ImageView
+        android:id="@+id/decode"
+        android:layout_width="247dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="36dp"
+        android:text="Attempt Decode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/attempt_decode_button" />
+
+    <EditText
+        android:id="@+id/attempt"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="40dp"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="Enter guess here"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/submit"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/submit"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="36dp"
+        android:text="Submit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/decode"
+        app:layout_constraintTop_toBottomOf="@+id/caesar"
+        app:srcCompat="@drawable/submit_button" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="308dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toTopOf="@+id/decode"
+        app:layout_constraintEnd_toStartOf="@+id/caesar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/colosseum" />
+
+    <include layout="@layout/message_box_position" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="407dp"
+        android:layout_marginBottom="254dp"
+        android:text="Score"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

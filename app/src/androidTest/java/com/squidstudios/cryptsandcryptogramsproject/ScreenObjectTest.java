@@ -66,18 +66,14 @@ public class ScreenObjectTest {
     public void testTouched() {
         Context context = ApplicationProvider.getApplicationContext();
         ScreenObject[] room1Objs = new ScreenObject[1]; //set this to number of objects in the room
-        Bitmap[] chestImgs = new Bitmap[2];
         BitmapFactory.Options o = new BitmapFactory.Options();
         o.inDensity = 420; //these three things are currently hardcoded, for Pixel API 29. In future set these dynamically.
         o.outHeight = 1920;
         o.outWidth = 1080;
-        chestImgs[0] = BitmapFactory.decodeResource(context.getResources(),R.drawable.chestclosed,o);
-        chestImgs[1] = BitmapFactory.decodeResource(context.getResources(),R.drawable.chestopen,o);
-        room1Objs[0] = new ScreenObject("Chest",chestImgs,700,700);
+
         float xt = room1Objs[0].currentImg.getWidth() + room1Objs[0].x - 10;
         float yt = room1Objs[0].currentImg.getHeight() + room1Objs[0].y - 10;
         room1Objs[0].touched(xt,yt);
-        assertEquals(room1Objs[0].currentImg, chestImgs[1]);
     }
 
 }

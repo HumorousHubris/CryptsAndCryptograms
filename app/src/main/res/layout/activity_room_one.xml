@@ -123,6 +123,7 @@
             android:layout_rowWeight="1"
             android:textStyle="bold"
             />
+
     </GridLayout>
 
     <GridLayout

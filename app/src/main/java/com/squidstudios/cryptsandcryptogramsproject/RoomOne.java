@@ -54,6 +54,7 @@ public class RoomOne extends MainActivity {
                         editor.putInt("score", score);
                         editor.commit();
                         scoreCounter.setText("Score: " + score);
+                        hideButtons(btn1,btn2,btn3,btn4);
                     }
                 });
 
@@ -66,6 +67,7 @@ public class RoomOne extends MainActivity {
                         editor.putInt("score", score);
                         editor.commit();
                         scoreCounter.setText("Score: " + score);
+                        hideButtons(btn1,btn2,btn3,btn4);
                     }
                 });
 
@@ -78,6 +80,7 @@ public class RoomOne extends MainActivity {
                         editor.putInt("score", score);
                         editor.commit();
                         scoreCounter.setText("Score: " + score);
+                        hideButtons(btn1,btn2,btn3,btn4);
                     }
                 });
 
@@ -90,6 +93,7 @@ public class RoomOne extends MainActivity {
                         editor.putInt("score", score);
                         editor.commit();
                         scoreCounter.setText("Score: " + score);
+                        hideButtons(btn1,btn2,btn3,btn4);
                     }
                 });
             }
@@ -280,5 +284,19 @@ public class RoomOne extends MainActivity {
                 });
             }
         });
+    }
+
+    protected void hideButtons(Button btn1, Button btn2, Button btn3, Button btn4){
+        btn1.setVisibility(View.INVISIBLE);
+        btn2.setVisibility(View.INVISIBLE);
+        btn3.setVisibility(View.INVISIBLE);
+        btn4.setVisibility(View.INVISIBLE);
+    }
+
+    protected void displayButtons(Button btn1, Button btn2, Button btn3, Button btn4){
+        btn1.setVisibility(View.VISIBLE);
+        btn2.setVisibility(View.VISIBLE);
+        btn3.setVisibility(View.VISIBLE);
+        btn4.setVisibility(View.VISIBLE);
     }
 }

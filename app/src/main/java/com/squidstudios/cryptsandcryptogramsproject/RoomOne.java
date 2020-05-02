@@ -59,6 +59,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -86,6 +87,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -99,6 +101,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -130,6 +133,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -143,6 +147,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -170,6 +175,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -201,6 +207,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -214,6 +221,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -227,6 +235,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -272,6 +281,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -285,6 +295,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
@@ -312,6 +323,7 @@ public class RoomOne extends MainActivity {
                         SharedPreferences.Editor editor = myScore.edit();
                         editor.putInt("score", score);
                         editor.commit();
+                        scoreCounter.setTextColor(Color.RED);
                         scoreCounter.setText("Score: " + score);
                         hideAnswerButtons(btn1,btn2,btn3,btn4);
                     }
